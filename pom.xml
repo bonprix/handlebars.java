@@ -46,6 +46,14 @@
     <tag>HEAD</tag>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub bonprix Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/bonprix/handlebars.java</url>
+    </repository>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
