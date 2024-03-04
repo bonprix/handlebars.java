@@ -2,6 +2,9 @@ name: Release Package to Nexus
 
 on:
   workflow_dispatch:
+    push:
+      branches:
+        - master
 
 jobs:
 
