@@ -11,6 +11,9 @@ jobs:
   publish-package:
     name: Deploy Handlebars to Nexus
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     container:
       image: maven:3.8.4-openjdk-17
     steps:
