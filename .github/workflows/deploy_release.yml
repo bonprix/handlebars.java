@@ -12,7 +12,6 @@ jobs:
     env:
       MAVEN_USERNAME: ${{ secrets.NEXUS_USERNAME }}
       MAVEN_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
-    if: ${{ needs.publish-release.outputs.createdNewTag == 'true' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
