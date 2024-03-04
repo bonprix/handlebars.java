@@ -7,7 +7,7 @@ jobs:
 
   publish-package:
     name: Deploy Handlebars to Nexus
-    runs-on: aws-bonprix-runner
+    runs-on: ubuntu-latest
     container:
       image: maven:3.8.4-openjdk-17
     steps:
