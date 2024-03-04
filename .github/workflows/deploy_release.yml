@@ -6,7 +6,6 @@ on:
 jobs:
 
   publish-package:
-    needs: publish-release
     name: Deploy Handlebars to Nexus
     runs-on: aws-bonprix-runner
     container:
