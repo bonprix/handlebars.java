@@ -17,5 +17,7 @@ jobs:
         run: |
           mvn clean install
       - name: Publish to Sonatype Nexus
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mvn deploy
