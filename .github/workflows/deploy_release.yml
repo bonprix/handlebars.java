@@ -61,7 +61,7 @@ jobs:
           mvn deploy:deploy-file \
           -Durl=https://nexus.bonprix.work/repository/bonprix-maven/ \
           -DrepositoryId=nexus \
-          -Dfile=target/your-artifact.jar \
+          -Dfile=target/handlebars.jar \
           -DpomFile=pom.xml
         env:
           MAVEN_USERNAME: ${{ secrets.NEXUS_USERNAME }}
