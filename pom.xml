@@ -52,6 +52,11 @@
       <name>GitHub bonprix Apache Maven Packages</name>
       <url>https://maven.pkg.github.com/bonprix/handlebars.java</url>
     </repository>
+    <snapshotRepository>
+      <id>github</id>
+      <name>GitHub bonprix Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/bonprix/handlebars.java</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <dependencyManagement>
